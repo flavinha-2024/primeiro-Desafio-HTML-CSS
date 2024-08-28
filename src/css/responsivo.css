@@ -43,20 +43,25 @@
         text-align: center;
      }
 
-     .rede-social {
-        justify-content: center;
-        align-items: center;
-        max-width: 100%;
-        margin-bottom: 50px;
-        
+     .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px; 
      }
 
-     .rede-social .social{
-        font-size: 15px;
-        text-align: center;
-        padding: 5px;
-        width: 30px;
+     .footer .navegacao {
+      justify-content: center;
+      align-items: center;
+      max-width: 100%;
+      margin-bottom: 10px;
      }
-    
+
+     .footer .navegacao .item {
+      font-size: 15px;
+      text-align: center;
+      padding: 5px;
+      width: 30px;
+     }
     
 }

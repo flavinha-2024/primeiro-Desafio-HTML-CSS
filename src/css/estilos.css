@@ -14,8 +14,8 @@ body {
      display: flex;
      justify-content: center;
      align-items: center;
+     max-width: 1440px;
      padding: 30px;
-     width: 100%;
      height: 100%;
      gap: 50px;
 }
@@ -42,6 +42,7 @@ body {
 
 .botao .btn {
     background-color: #fff;
+    box-shadow: 3px 4px 5px;
     color: #000;
     padding: 10px 60px;
     font-size: 20px;
@@ -51,28 +52,36 @@ body {
 }
 
 .botao .btn:hover {
-    background-color: orangered;
+    background-color: hsl(300, 69%, 71%);
     color: #fff;
 }
 
-.rede-social {
+.footer {
     display: flex;
-    justify-content: right;
-    margin: 10px 30px;
+    justify-content: flex-end;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+.footer .navegacao {
+    display: flex;
     gap: 20px;
 }
 
-.rede-social .social {
-    padding: 15px;
-    width: 55px;
-    font-size: 15px;
+.footer .navegacao .item {
     text-align: center;
-    color: #fff;
+    padding: 10px;
+    width: 50px;
     border: 1px solid #fff;
     border-radius: 50%;
     transition: 0.3s ease-in-out;
 }
 
-.rede-social .social:hover {
-    background-color: orangered;
+
+.footer .navegacao .item i{
+    color: #fff;
+}
+
+.footer .item:hover {
+    background-color: hsl(300, 69%, 71%);
 }
