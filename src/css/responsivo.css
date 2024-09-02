@@ -1,67 +1,167 @@
-@media(max-width: 375px){
+ @media(max-width: 375px) {
     body {
-        background-image: url(../images/bg-mobile.svg);
-        background-repeat: no-repeat;
+       background-image: url(../images/bg-mobile.svg);
+       background-repeat: no-repeat;
     }
-     .cabecalho .logo .imagem{
-        width: 50%;
-     }
 
-     .conteudo-principal {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-     }
+    .logo .imagem {
+       width: 250px;
+    }
 
-     .conteudo-principal .ilustracao{
-        max-width: 296px;
-        height: 100%;
-     }
+    .conteudo-principal {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
 
-     .informacoes .titulo{
-        text-align: center;
-        font-size: 25px;
-        font-weight: 500;
-     }
+    .conteudo-principal img {
+       max-width: 296px;
+       height: 100%;
+    }
 
-     .informacoes .texto{
-        text-align: center;
-        font-size: 13px;
-        font-weight: 300;
-        line-height: 25px;
-     }
+    .informacoes .titulo {
+       text-align: center;
+       font-size: 25px;
+       font-weight: 500;
+    }
 
-     .botao .btn{
-        width: 200px;
-        justify-content: center;
-        align-items: center;
-        margin: 0 30px;
-        font-size: 13px;
-     }
+    .informacoes .texto {
+       text-align: center;
+       font-size: 13px;
+       font-weight: 300;
+       line-height: 25px;
+    }
 
-     .btn{
-        text-align: center;
-     }
+    .botao .btn {
+       width: 200px;
+       justify-content: center;
+       align-items: center;
+       margin: 0 30px;
+       font-size: 13px;
+    }
 
-     .footer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 50px; 
-     }
+    .btn {
+       text-align: center;
+    }
 
-     .footer .navegacao {
-      justify-content: center;
-      align-items: center;
-      max-width: 100%;
-      margin-bottom: 10px;
-     }
+    .footer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 50px;
+    }
 
-     .footer .navegacao .item {
-      font-size: 15px;
-      text-align: center;
-      padding: 5px;
-      width: 30px;
-     }
-    
+    .footer .navegacao {
+       justify-content: center;
+       align-items: center;
+       max-width: 100%;
+       margin-bottom: 10px;
+    }
+
+    .footer .navegacao .item {
+       font-size: 15px;
+       text-align: center;
+       padding: 5px;
+       width: 30px;
+    }
+
+ }
+
+
+
+ @media(max-width: 576px) {
+
+    .logo .imagem {
+       width: 50%;
+    }
+
+    .conteudo-principal {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .conteudo-principal img {
+       width: 100%;
+    }
+
+    .conteudo-principal .informacoes {
+       text-align: center;
+    }
+
+    .conteudo-principal .titulo {
+       font-size: 36px;
+    }
+
+    .conteudo-principal .texto {
+       font-size: 20px;
+       font-weight: 300;
+    }
+
+
+    .botao .btn {
+       display: block;
+       margin: auto;
+       width: 200px;
+       font-size: 15px;
+    }
+
+
+    .footer {
+       justify-content: center;
+       padding: 40px 0;
+    }
+
+    .footer .navegacao .item i {
+       font-size: 20px;
+       text-align: center;
+       padding: 5px;
+       width: 30px;
+    }
+ }
+
+@media(max-width: 768px){
+   .conteudo-principal .informacoes .titulo{
+      font-size: 40px;
+   }
 }
+
+
+ @media(max-width: 992px) {
+    .logo .imagem {
+       width: 300px;
+    }
+
+    .conteudo-principal {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .conteudo-principal img{
+      width: 100%;
+    }
+
+    .conteudo-principal .informacoes {
+       text-align: center;
+    }
+
+    .conteudo-principal .titulo {
+       font-size: 57px;
+       font-weight: 500;
+    }
+
+    .conteudo-principal .texto {
+       font-size: 25px;
+    }
+
+    .botao .btn {
+       display: block;
+       margin: auto;
+       width: 50%;
+    }
+
+    .footer {
+       justify-content: center;
+       padding: 50px 0;
+
+    }
+ }
