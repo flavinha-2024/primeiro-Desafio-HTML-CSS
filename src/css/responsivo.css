@@ -1,7 +1,8 @@
 @media(max-width:1200px) {
+   
 
    .conteudo-principal img {
-      width: 80%;
+      width: 100%;
    }
 
    .conteudo-principal {
