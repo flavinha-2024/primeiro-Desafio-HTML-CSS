@@ -9,7 +9,7 @@ body {
 }
 
 .logo .imagem {
-    padding: 30px;
+    padding: 10px;
 }
 
 .conteudo-principal {
@@ -65,7 +65,7 @@ body {
 .footer {
     display: flex;
     justify-content: flex-end;
-    margin: 0px 10px;
+    margin: 50px 10px;
     font-size: 20px;
 }
 
